@@ -1,0 +1,93 @@
+ACCEL_ASCII "E:\Documentos\Robson\Projetos Robson\PIC\MPSP Programmer\dip8_a2.net"
+
+(asciiHeader 
+  (asciiVersion 3 0)
+  (timeStamp 2008 1 31 22 22 56)
+  (program "P-CAD 2006 Schematic" "19.01.7431")
+  (copyright "Copyright © 1992-2006 Altium Limited")
+  (fileAuthor "")
+  (headerString "")
+  (fileUnits Mil)
+  (guidString "{1A385476-9DF9-45A9-904C-1A6FB7779FDF}")
+)
+
+(netlist "Netlist_1"
+  (compInst "J1"
+    (compRef "HEADER_10X2_1")
+    (originalName "HEADER_10X2")
+    (patternName "HDR2X10")
+    (attr "LatestRevisionDate" "17-Jul-2002" (textStyleRef "(Default)") )
+    (attr "LatestRevisionNote" "Re-released for DXP Platform." (textStyleRef "(Default)") )
+    (attr "Publisher" "Altium Limited" (textStyleRef "(Default)") )
+  )
+  (compInst "U1"
+    (compRef "M24C16BN6_1")
+    (originalName "M24C16BN6")
+    (compValue "24CXX")
+    (patternName "DIP8")
+    (attr "Published" "24-Aug-2001" (textStyleRef "(Default)") )
+    (attr "LatestRevisionDate" "6-Jun-2005" (textStyleRef "(Default)") )
+    (attr "LatestRevisionNote" "Stylized 3D Model Added." (textStyleRef "(Default)") )
+    (attr "DatasheetDocument" "Sep-1999" (textStyleRef "(Default)") )
+    (attr "PackageDocument" "Jun-1998" (textStyleRef "(Default)") )
+    (attr "PackageReference" "PSDIP8A" (textStyleRef "(Default)") )
+    (attr "Publisher" "Altium Limited" (textStyleRef "(Default)") )
+    (attr "ComponentLink1DescBC" "Manufacturer Link" (textStyleRef "(Default)") )
+    (attr "ComponentLink1URL" "http://www.st.com/" (textStyleRef "(Default)") )
+    (attr "ComponentLink2DescA4" "Datasheet" (textStyleRef "(Default)") )
+    (attr "ComponentLink2URL" "http://www.st.com/stonline/products/literature/ds/5067/m24c01-r.pdf" (textStyleRef "(Default)") )
+  )
+  (compInst "JP1"
+    (compRef "JMP3_1")
+    (originalName "JMP3")
+    (patternName "JMP3")
+  )
+  (net "VSS"
+    (node "J1" "20")
+    (node "J1" "19")
+    (node "J1" "14")
+    (node "J1" "13")
+    (node "J1" "10")
+    (node "J1" "9")
+    (node "J1" "6")
+    (node "J1" "5")
+    (node "JP1" "1")
+    (node "U1" "4")
+    (node "U1" "3")
+    (node "U1" "2")
+    (node "U1" "1")
+  )
+  (net "PGC"
+    (node "J1" "8")
+    (node "J1" "7")
+    (node "U1" "6")
+  )
+  (net "PGD"
+    (node "J1" "12")
+    (node "J1" "11")
+    (node "U1" "5")
+  )
+  (net "EEPROM_PIN7"
+    (node "JP1" "2")
+    (node "U1" "7")
+  )
+  (net "VPP"
+    (node "J1" "2")
+    (node "J1" "1")
+  )
+  (net "VDD"
+    (node "J1" "4")
+    (node "J1" "3")
+  )
+  (net "+5V"
+    (node "J1" "16")
+    (node "J1" "15")
+    (node "JP1" "3")
+    (node "U1" "8")
+  )
+  (net "CS"
+    (node "J1" "18")
+    (node "J1" "17")
+  )
+)
+
